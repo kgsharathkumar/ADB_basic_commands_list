@@ -1,21 +1,32 @@
 # ADB_basic_commands_list
 ADB_basic_commands_list
 
-ADB Basics
+# ADB Basics
 adb devices (lists connected devices)
+
 adb root (restarts adbd with root permissions)
+
 adb start-server (starts the adb server)
+
 adb kill-server (kills the adb server)
+
 adb reboot (reboots the device)
+
 adb devices -l (list of devices by product/model)
+
 adb shell (starts the backround terminal)
+
 exit (exits the background terminal)
+
 adb help (list all commands)
+
 adb -s <deviceName> <command> (redirect command to specific device)
+
 adb –d <command> (directs command to only attached USB device)
+
 adb –e <command> (directs command to only attached emulator)
 
-Package Installation
+# Package Installation
 adb shell install <apk> (install app)
 adb shell install <path> (install app from phone path)
 adb shell install -r <path> (install app from phone path)
