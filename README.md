@@ -1,5 +1,5 @@
 # ADB_basic_commands_list
-ADB_basic_commands_list
+ADB, Android Debug Bridge, is a command-line utility included with Google's Android SDK. ADB can control your device over USB from a computer, copy files back and forth, install and uninstall apps, run shell commands, and more.
 
 # ADB Basics
 adb devices (lists connected devices)
@@ -68,7 +68,7 @@ adb pull <remote> <local> (copy file/dir from device)
 
 run-as <package> cat <file> (access the private package files)
 
-#Phone Info
+# Phone Info
 
 adb get-statе (print device state)
 
